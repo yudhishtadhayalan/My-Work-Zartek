@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D408A12A272288BF00F05548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A129272288BF00F05548 /* AppDelegate.swift */; };
+		D408A12C272288BF00F05548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A12B272288BF00F05548 /* SceneDelegate.swift */; };
+		D408A131272288BF00F05548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D408A12F272288BF00F05548 /* Main.storyboard */; };
+		D408A133272288C200F05548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D408A132272288C200F05548 /* Assets.xcassets */; };
+		D408A136272288C200F05548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D408A134272288C200F05548 /* LaunchScreen.storyboard */; };
+		D408A14927228B9100F05548 /* UserHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A14827228B9100F05548 /* UserHomeVC.swift */; };
+		D408A14B27228BA000F05548 /* UserAuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A14A27228BA000F05548 /* UserAuthenticationVC.swift */; };
+		D408A14D27228BB100F05548 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A14C27228BB100F05548 /* CheckoutVC.swift */; };
+		D408A15127228E9100F05548 /* UserHomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A15027228E9100F05548 /* UserHomeTableCell.swift */; };
+		D408A15327229B9F00F05548 /* CheckoutCommonTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A15227229B9F00F05548 /* CheckoutCommonTableCell.swift */; };
+		D408A15527229BB300F05548 /* CheckoutTotalAmtTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A15427229BB300F05548 /* CheckoutTotalAmtTableCell.swift */; };
+		D408A18B2728BCF000F05548 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D408A1892728BCF000F05548 /* SWRevealViewController.m */; };
+		D408A18D2728C0CF00F05548 /* SideNavigationBarTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408A18C2728C0CF00F05548 /* SideNavigationBarTableVC.swift */; };
+		D4365329272B057300110A5E /* SingletonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4365328272B057300110A5E /* SingletonObject.swift */; };
+		D4AE0BDD272ACFA70093E64B /* PhoneAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE0BDC272ACFA70093E64B /* PhoneAuthVC.swift */; };
+		D4AE0BE0272AE44C0093E64B /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = D4AE0BDF272AE44C0093E64B /* Algorithms */; };
+		D4D6A6D427291BCE001EDCCB /* ModelCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6D327291BCE001EDCCB /* ModelCategory.swift */; };
+		D4D6A6DA27291D82001EDCCB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6D927291D82001EDCCB /* Constant.swift */; };
+		D4D6A6DC27291DA4001EDCCB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6DB27291DA4001EDCCB /* Reachability.swift */; };
+		D4D6A6DE27291DC3001EDCCB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6DD27291DC3001EDCCB /* Utility.swift */; };
+		D4D6A6E027291DDF001EDCCB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6DF27291DDF001EDCCB /* WebService.swift */; };
+		D4D6A6E32729201E001EDCCB /* VMCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6E22729201E001EDCCB /* VMCategory.swift */; };
+		D4D6A6E5272959DB001EDCCB /* SelectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D6A6E4272959DB001EDCCB /* SelectCollectionViewCell.swift */; };
+		D4D6A6E7272AC46E001EDCCB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4D6A6E6272AC46E001EDCCB /* GoogleService-Info.plist */; };
+		EB822CE93D62F695DF44BF76 /* Pods_MyWorkZartek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35096264FD8C968BA372ECB7 /* Pods_MyWorkZartek.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35096264FD8C968BA372ECB7 /* Pods_MyWorkZartek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyWorkZartek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7858293A7B649A3019DB90AD /* Pods-MyWorkZartek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWorkZartek.debug.xcconfig"; path = "Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek.debug.xcconfig"; sourceTree = "<group>"; };
+		BA235EAF95BE637A5FE8397F /* Pods-MyWorkZartek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWorkZartek.release.xcconfig"; path = "Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek.release.xcconfig"; sourceTree = "<group>"; };
+		D408A126272288BF00F05548 /* MyWorkZartek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorkZartek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D408A129272288BF00F05548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D408A12B272288BF00F05548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D408A130272288BF00F05548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D408A132272288C200F05548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D408A135272288C200F05548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D408A137272288C200F05548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyWorkZartek/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		D408A14827228B9100F05548 /* UserHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeVC.swift; sourceTree = "<group>"; };
+		D408A14A27228BA000F05548 /* UserAuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationVC.swift; sourceTree = "<group>"; };
+		D408A14C27228BB100F05548 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		D408A15027228E9100F05548 /* UserHomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeTableCell.swift; sourceTree = "<group>"; };
+		D408A15227229B9F00F05548 /* CheckoutCommonTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutCommonTableCell.swift; sourceTree = "<group>"; };
+		D408A15427229BB300F05548 /* CheckoutTotalAmtTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutTotalAmtTableCell.swift; sourceTree = "<group>"; };
+		D408A1882728BCEF00F05548 /* MyWorkZartek-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWorkZartek-Bridging-Header.h"; sourceTree = "<group>"; };
+		D408A1892728BCF000F05548 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D408A18A2728BCF000F05548 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D408A18C2728C0CF00F05548 /* SideNavigationBarTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavigationBarTableVC.swift; sourceTree = "<group>"; };
+		D4365328272B057300110A5E /* SingletonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonObject.swift; sourceTree = "<group>"; };
+		D4AE0BDC272ACFA70093E64B /* PhoneAuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthVC.swift; sourceTree = "<group>"; };
+		D4D6A6D327291BCE001EDCCB /* ModelCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCategory.swift; sourceTree = "<group>"; };
+		D4D6A6D927291D82001EDCCB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D4D6A6DB27291DA4001EDCCB /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D4D6A6DD27291DC3001EDCCB /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		D4D6A6DF27291DDF001EDCCB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		D4D6A6E22729201E001EDCCB /* VMCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMCategory.swift; sourceTree = "<group>"; };
+		D4D6A6E4272959DB001EDCCB /* SelectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4D6A6E6272AC46E001EDCCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D408A123272288BF00F05548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AE0BE0272AE44C0093E64B /* Algorithms in Frameworks */,
+				EB822CE93D62F695DF44BF76 /* Pods_MyWorkZartek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CDA8C1EA670F1500D18122 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7858293A7B649A3019DB90AD /* Pods-MyWorkZartek.debug.xcconfig */,
+				BA235EAF95BE637A5FE8397F /* Pods-MyWorkZartek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEADCD645CF3D215F6898E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35096264FD8C968BA372ECB7 /* Pods_MyWorkZartek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D408A11D272288BF00F05548 = {
+			isa = PBXGroup;
+			children = (
+				D408A128272288BF00F05548 /* MyWorkZartek */,
+				D408A127272288BF00F05548 /* Products */,
+				10CDA8C1EA670F1500D18122 /* Pods */,
+				BEADCD645CF3D215F6898E99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D408A127272288BF00F05548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D408A126272288BF00F05548 /* MyWorkZartek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D408A128272288BF00F05548 /* MyWorkZartek */ = {
+			isa = PBXGroup;
+			children = (
+				D408A13D27228AAC00F05548 /* AppDelegate */,
+				D408A14327228ADE00F05548 /* Storyboard */,
+				D408A13E27228AAC00F05548 /* Helper */,
+				D408A14227228AAD00F05548 /* Model */,
+				D408A13F27228AAD00F05548 /* SupportingFiles */,
+				D408A14027228AAD00F05548 /* View */,
+				D408A14127228AAD00F05548 /* ViewModel */,
+			);
+			path = MyWorkZartek;
+			sourceTree = "<group>";
+		};
+		D408A13D27228AAC00F05548 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D408A129272288BF00F05548 /* AppDelegate.swift */,
+				D408A12B272288BF00F05548 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D408A13E27228AAC00F05548 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D4365327272B055C00110A5E /* SingletonObject */,
+				D4D6A6D627291D55001EDCCB /* Constant */,
+				D4D6A6D527291D55001EDCCB /* Reachability */,
+				D4D6A6D827291D55001EDCCB /* Utility */,
+				D4D6A6D727291D55001EDCCB /* WebService */,
+				D408A1872728BCD900F05548 /* SWRevealViewControllers */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D408A13F27228AAD00F05548 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6E6272AC46E001EDCCB /* GoogleService-Info.plist */,
+				D408A132272288C200F05548 /* Assets.xcassets */,
+				D408A137272288C200F05548 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D408A14027228AAD00F05548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D408A14427228B5C00F05548 /* UserAuthentication */,
+				D408A14527228B5D00F05548 /* UserHome */,
+				D408A14727228B7D00F05548 /* SideNavigationBar */,
+				D408A14627228B5D00F05548 /* Checkout */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D408A14127228AAD00F05548 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6E127291FC2001EDCCB /* Cateogry */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D408A14227228AAD00F05548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6D227291BBB001EDCCB /* Category */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D408A14327228ADE00F05548 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D408A12F272288BF00F05548 /* Main.storyboard */,
+				D408A134272288C200F05548 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D408A14427228B5C00F05548 /* UserAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				D408A14A27228BA000F05548 /* UserAuthenticationVC.swift */,
+				D4AE0BDC272ACFA70093E64B /* PhoneAuthVC.swift */,
+			);
+			path = UserAuthentication;
+			sourceTree = "<group>";
+		};
+		D408A14527228B5D00F05548 /* UserHome */ = {
+			isa = PBXGroup;
+			children = (
+				D408A14827228B9100F05548 /* UserHomeVC.swift */,
+				D408A15027228E9100F05548 /* UserHomeTableCell.swift */,
+				D4D6A6E4272959DB001EDCCB /* SelectCollectionViewCell.swift */,
+			);
+			path = UserHome;
+			sourceTree = "<group>";
+		};
+		D408A14627228B5D00F05548 /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				D408A14C27228BB100F05548 /* CheckoutVC.swift */,
+				D408A15227229B9F00F05548 /* CheckoutCommonTableCell.swift */,
+				D408A15427229BB300F05548 /* CheckoutTotalAmtTableCell.swift */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		D408A14727228B7D00F05548 /* SideNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D408A18C2728C0CF00F05548 /* SideNavigationBarTableVC.swift */,
+			);
+			path = SideNavigationBar;
+			sourceTree = "<group>";
+		};
+		D408A1872728BCD900F05548 /* SWRevealViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D408A18A2728BCF000F05548 /* SWRevealViewController.h */,
+				D408A1892728BCF000F05548 /* SWRevealViewController.m */,
+				D408A1882728BCEF00F05548 /* MyWorkZartek-Bridging-Header.h */,
+			);
+			path = SWRevealViewControllers;
+			sourceTree = "<group>";
+		};
+		D4365327272B055C00110A5E /* SingletonObject */ = {
+			isa = PBXGroup;
+			children = (
+				D4365328272B057300110A5E /* SingletonObject.swift */,
+			);
+			path = SingletonObject;
+			sourceTree = "<group>";
+		};
+		D4D6A6D227291BBB001EDCCB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6D327291BCE001EDCCB /* ModelCategory.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D4D6A6D527291D55001EDCCB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6DB27291DA4001EDCCB /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		D4D6A6D627291D55001EDCCB /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6D927291D82001EDCCB /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D4D6A6D727291D55001EDCCB /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6DF27291DDF001EDCCB /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		D4D6A6D827291D55001EDCCB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6DD27291DC3001EDCCB /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D4D6A6E127291FC2001EDCCB /* Cateogry */ = {
+			isa = PBXGroup;
+			children = (
+				D4D6A6E22729201E001EDCCB /* VMCategory.swift */,
+			);
+			path = Cateogry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D408A125272288BF00F05548 /* MyWorkZartek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D408A13A272288C200F05548 /* Build configuration list for PBXNativeTarget "MyWorkZartek" */;
+			buildPhases = (
+				64A36A091A3BBC65411BEBF0 /* [CP] Check Pods Manifest.lock */,
+				D408A122272288BF00F05548 /* Sources */,
+				D408A123272288BF00F05548 /* Frameworks */,
+				D408A124272288BF00F05548 /* Resources */,
+				097CC745F71E93506DBB96F3 /* [CP] Embed Pods Frameworks */,
+				4E2FFE298567F4BE8357A2B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWorkZartek;
+			packageProductDependencies = (
+				D4AE0BDF272AE44C0093E64B /* Algorithms */,
+			);
+			productName = MyWorkZartek;
+			productReference = D408A126272288BF00F05548 /* MyWorkZartek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D408A11E272288BF00F05548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D408A125272288BF00F05548 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+				};
+			};
+			buildConfigurationList = D408A121272288BF00F05548 /* Build configuration list for PBXProject "MyWorkZartek" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D408A11D272288BF00F05548;
+			packageReferences = (
+				D4AE0BDE272AE44C0093E64B /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			productRefGroup = D408A127272288BF00F05548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D408A125272288BF00F05548 /* MyWorkZartek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D408A124272288BF00F05548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D408A136272288C200F05548 /* LaunchScreen.storyboard in Resources */,
+				D4D6A6E7272AC46E001EDCCB /* GoogleService-Info.plist in Resources */,
+				D408A133272288C200F05548 /* Assets.xcassets in Resources */,
+				D408A131272288BF00F05548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097CC745F71E93506DBB96F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2FFE298567F4BE8357A2B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyWorkZartek/Pods-MyWorkZartek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A36A091A3BBC65411BEBF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyWorkZartek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D408A122272288BF00F05548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D6A6DE27291DC3001EDCCB /* Utility.swift in Sources */,
+				D408A15127228E9100F05548 /* UserHomeTableCell.swift in Sources */,
+				D4D6A6D427291BCE001EDCCB /* ModelCategory.swift in Sources */,
+				D4D6A6E027291DDF001EDCCB /* WebService.swift in Sources */,
+				D408A15527229BB300F05548 /* CheckoutTotalAmtTableCell.swift in Sources */,
+				D408A14D27228BB100F05548 /* CheckoutVC.swift in Sources */,
+				D408A18D2728C0CF00F05548 /* SideNavigationBarTableVC.swift in Sources */,
+				D408A14B27228BA000F05548 /* UserAuthenticationVC.swift in Sources */,
+				D408A14927228B9100F05548 /* UserHomeVC.swift in Sources */,
+				D408A12A272288BF00F05548 /* AppDelegate.swift in Sources */,
+				D408A18B2728BCF000F05548 /* SWRevealViewController.m in Sources */,
+				D408A12C272288BF00F05548 /* SceneDelegate.swift in Sources */,
+				D4D6A6E32729201E001EDCCB /* VMCategory.swift in Sources */,
+				D4AE0BDD272ACFA70093E64B /* PhoneAuthVC.swift in Sources */,
+				D4365329272B057300110A5E /* SingletonObject.swift in Sources */,
+				D408A15327229B9F00F05548 /* CheckoutCommonTableCell.swift in Sources */,
+				D4D6A6DA27291D82001EDCCB /* Constant.swift in Sources */,
+				D4D6A6DC27291DA4001EDCCB /* Reachability.swift in Sources */,
+				D4D6A6E5272959DB001EDCCB /* SelectCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D408A12F272288BF00F05548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D408A130272288BF00F05548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D408A134272288C200F05548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D408A135272288C200F05548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D408A138272288C200F05548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D408A139272288C200F05548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D408A13B272288C200F05548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7858293A7B649A3019DB90AD /* Pods-MyWorkZartek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PU698M63W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWorkZartek/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(SRCROOT)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zartek.mywork.MyWorkZartek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWorkZartek/Helper/SWRevealViewControllers/MyWorkZartek-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D408A13C272288C200F05548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA235EAF95BE637A5FE8397F /* Pods-MyWorkZartek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7PU698M63W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWorkZartek/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"$(SRCROOT)",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zartek.mywork.MyWorkZartek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWorkZartek/Helper/SWRevealViewControllers/MyWorkZartek-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D408A121272288BF00F05548 /* Build configuration list for PBXProject "MyWorkZartek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D408A138272288C200F05548 /* Debug */,
+				D408A139272288C200F05548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D408A13A272288C200F05548 /* Build configuration list for PBXNativeTarget "MyWorkZartek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D408A13B272288C200F05548 /* Debug */,
+				D408A13C272288C200F05548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4AE0BDE272AE44C0093E64B /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4AE0BDF272AE44C0093E64B /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4AE0BDE272AE44C0093E64B /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D408A11E272288BF00F05548 /* Project object */;
+}

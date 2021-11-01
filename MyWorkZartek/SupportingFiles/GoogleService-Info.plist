@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>251057841079-ge5rohih68oqp4n58vmg887f83goc0kt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.251057841079-ge5rohih68oqp4n58vmg887f83goc0kt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAbjV67xefVLqbJRdCSQGNVDAVofNOT9y8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>251057841079</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zartek.mywork.MyWorkZartek</string>
+	<key>PROJECT_ID</key>
+	<string>myworkzartek</string>
+	<key>STORAGE_BUCKET</key>
+	<string>myworkzartek.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:251057841079:ios:d62a38f3f4e8a616f6fe32</string>
+</dict>
+</plist>
