@@ -16,12 +16,14 @@ class UserHomeVC: UIViewController {
     @IBOutlet weak var lbl_TotalPurchase: UILabel!
 
     var selectedCell: Int?
+    var purchasedFoodCount: Int?
     var totalPurchasedFoodCount: String?
     var modelCategoryElement: [ModelCategoryElement]!
     var categoryDishArray =  [CategoryDish]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        purchasedFoodCount = 0
         initialSetup()
         sideMenuFunction()
         apiCall()
@@ -124,7 +126,7 @@ extension UserHomeVC: UITableViewDataSource {
         } else { // 2 --> Vegetarian Food
             cell.imgVw_dish_Type.image = #imageLiteral(resourceName: "Vegetarian")
         }
-        
+        cell.lbl_PurchasedFood.text = "\(item?.numberOfItems ?? 0)"
         cell.btn_Minus.tag = indexPath.row
         cell.btn_Plus.tag = indexPath.row
         cell.btn_Minus.addTarget(self, action: #selector(didTapMinus(sender:)), for: .touchUpInside)
